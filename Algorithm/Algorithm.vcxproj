@@ -139,7 +139,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="josephus.cpp" />
+    <ClCompile Include="..\..\..\..\Users\Lee DaeHyung\Desktop\알고리즘\백준문제\190924_1012(유기농배추).cpp" />
+    <ClCompile Include="..\..\..\..\Users\Lee DaeHyung\Desktop\알고리즘\백준문제\190925_2178(미로찾기).cpp" />
+    <ClCompile Include="..\..\..\..\Users\Lee DaeHyung\Desktop\알고리즘\백준문제\190930_1697(숨바꼭질).cpp" />
+    <ClCompile Include="..\..\..\..\Users\Lee DaeHyung\Desktop\알고리즘\백준문제\191007_11047(동전0).cpp" />
+    <ClCompile Include="..\..\..\..\Users\Lee DaeHyung\Desktop\알고리즘\백준문제\191014_11399(ATM).cpp" />
+    <ClCompile Include="..\..\..\..\Users\Lee DaeHyung\Desktop\알고리즘\백준문제\191014_1931(회의실).cpp" />
+    <ClCompile Include="..\..\..\..\Users\Lee DaeHyung\Desktop\알고리즘\백준문제\191014_2217(로프).cpp" />
+    <ClCompile Include="..\..\..\..\Users\Lee DaeHyung\Desktop\알고리즘\백준문제\191015_1541(잃어버린 괄호).cpp" />
+    <ClCompile Include="..\..\..\..\Users\Lee DaeHyung\Desktop\알고리즘\백준문제\191021_11725(트리).cpp" />
+    <ClCompile Include="..\..\..\..\Users\Lee DaeHyung\Desktop\알고리즘\백준문제\191021백준_1167 (트리의 지름)2.cpp" />
+    <ClCompile Include="..\..\..\..\Users\Lee DaeHyung\Desktop\알고리즘\백준문제\191022_1967(트리의 지름).cpp" />
+    <ClCompile Include="..\..\..\..\Users\Lee DaeHyung\Desktop\알고리즘\백준문제\191111_11279(최대힙).cpp" />
+    <ClCompile Include="..\..\..\..\Users\Lee DaeHyung\Desktop\알고리즘\백준문제\191111_1655(가운데를 말해요).cpp" />
+    <ClCompile Include="..\..\..\..\Users\Lee DaeHyung\Desktop\알고리즘\백준문제\191111_1927(최소힙).cpp" />
+    <ClCompile Include="..\..\..\..\Users\Lee DaeHyung\Desktop\알고리즘\백준문제\191111_19286(절대값 힙).cpp" />
+    <ClCompile Include="..\..\..\..\Users\Lee DaeHyung\Desktop\알고리즘\백준문제\191112_1920(이분탐색).cpp" />
+    <ClCompile Include="..\..\..\..\Users\Lee DaeHyung\Desktop\알고리즘\백준문제\191113_10816(숫자 카드2).cpp" />
+    <ClCompile Include="..\..\..\..\Users\Lee DaeHyung\Desktop\알고리즘\백준문제\191114_1654(랜선 자르기).cpp" />
+    <ClCompile Include="200108_jmb_josephus.cpp" />
     <ClCompile Include="hello.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
