@@ -84,5 +84,8 @@
     <ClCompile Include="200109_jmb_brackets2.cpp">
       <Filter>소스 파일\2020</Filter>
     </ClCompile>
+    <ClCompile Include="200111_1316%28그룹단어체커%29.cpp">
+      <Filter>소스 파일\2020</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
