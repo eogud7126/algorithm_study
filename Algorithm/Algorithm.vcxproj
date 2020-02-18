@@ -217,7 +217,10 @@
     <ClCompile Include="200217_9372(상근이의 여행).cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="200218_2583(영역 구하기).cpp" />
+    <ClCompile Include="200218_14502(연구소).cpp" />
+    <ClCompile Include="200218_2583(영역 구하기).cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="hello.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
