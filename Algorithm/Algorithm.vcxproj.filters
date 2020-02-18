@@ -99,5 +99,8 @@
     <ClCompile Include="200211_6603(로또).cpp">
       <Filter>소스 파일\2020</Filter>
     </ClCompile>
+    <ClCompile Include="200217_9372(상근이의 여행).cpp">
+      <Filter>소스 파일\2020</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
