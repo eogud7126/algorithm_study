@@ -108,5 +108,20 @@
     <ClCompile Include="200218_14502(연구소).cpp">
       <Filter>소스 파일\2020</Filter>
     </ClCompile>
+    <ClCompile Include="200224_mnsoft0222_2.cpp">
+      <Filter>소스 파일\2020</Filter>
+    </ClCompile>
+    <ClCompile Include="200224_mnsoft0222_1.cpp">
+      <Filter>소스 파일\2020</Filter>
+    </ClCompile>
+    <ClCompile Include="200224_mnsoft0222_3.cpp">
+      <Filter>소스 파일\2020</Filter>
+    </ClCompile>
+    <ClCompile Include="200226_mnsoft0222_4.cpp">
+      <Filter>소스 파일\2020</Filter>
+    </ClCompile>
+    <ClCompile Include="200226_programmers(여행경로).cpp">
+      <Filter>소스 파일\2020</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
