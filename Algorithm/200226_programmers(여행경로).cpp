@@ -2,7 +2,7 @@
 #include <string>
 #include <vector>
 #include<algorithm>
-
+//문제 다시 풀어야함.
 using namespace std;
 
 vector<string> solution(vector<vector<string>> tickets) {

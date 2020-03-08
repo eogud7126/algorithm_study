@@ -123,5 +123,17 @@
     <ClCompile Include="200226_programmers(여행경로).cpp">
       <Filter>소스 파일\2020</Filter>
     </ClCompile>
+    <ClCompile Include="practice.cpp">
+      <Filter>소스 파일\2020</Filter>
+    </ClCompile>
+    <ClCompile Include="200307_10162(전자레인지).cpp">
+      <Filter>소스 파일\2020</Filter>
+    </ClCompile>
+    <ClCompile Include="200307_10163(색종이).cpp">
+      <Filter>소스 파일\2020</Filter>
+    </ClCompile>
+    <ClCompile Include="200307_10164(격자상의 경로).cpp">
+      <Filter>소스 파일\2020</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
