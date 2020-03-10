@@ -135,5 +135,14 @@
     <ClCompile Include="200307_10164(격자상의 경로).cpp">
       <Filter>소스 파일\2020</Filter>
     </ClCompile>
+    <ClCompile Include="200309_10836(여왕벌).cpp">
+      <Filter>소스 파일\2020</Filter>
+    </ClCompile>
+    <ClCompile Include="200310_9019(DSLR).cpp">
+      <Filter>소스 파일\2020</Filter>
+    </ClCompile>
+    <ClCompile Include="200310_2644(촌수계산).cpp">
+      <Filter>소스 파일\2020</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
