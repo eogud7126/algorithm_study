@@ -153,5 +153,8 @@
     <ClCompile Include="200312_2468(안전 영역).cpp">
       <Filter>소스 파일\2020</Filter>
     </ClCompile>
+    <ClCompile Include="200312_7562(나이트의 이동).cpp">
+      <Filter>소스 파일\2020</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
