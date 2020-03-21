@@ -252,5 +252,11 @@
     <ClCompile Include="200320_3020(개똥벌레).cpp">
       <Filter>소스 파일\2020</Filter>
     </ClCompile>
+    <ClCompile Include="200321_4949(균형잡힌 세상).cpp">
+      <Filter>소스 파일\2020</Filter>
+    </ClCompile>
+    <ClCompile Include="200321_1764%28듣보잡%29.cpp">
+      <Filter>소스 파일\2020</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
