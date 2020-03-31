@@ -270,5 +270,11 @@
     <ClCompile Include="200330_5525(IOIOI).cpp">
       <Filter>소스 파일\2020</Filter>
     </ClCompile>
+    <ClCompile Include="200331_2805(나무자르기).cpp">
+      <Filter>소스 파일\2020</Filter>
+    </ClCompile>
+    <ClCompile Include="200331_1620(나는야 포켓몬 마스터 이다솜).cpp">
+      <Filter>소스 파일\2020</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
