@@ -276,5 +276,8 @@
     <ClCompile Include="200331_1620(나는야 포켓몬 마스터 이다솜).cpp">
       <Filter>소스 파일\2020</Filter>
     </ClCompile>
+    <ClCompile Include="200401_programmers_짝지어제거하기.cpp">
+      <Filter>소스 파일\2020</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
