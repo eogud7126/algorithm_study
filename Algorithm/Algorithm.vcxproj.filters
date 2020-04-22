@@ -288,5 +288,25 @@
     <ClCompile Include="200413_programmers_연속합.cpp">
       <Filter>소스 파일\2020</Filter>
     </ClCompile>
+    <ClCompile Include="200422_programmers_kakao(크레인인형뽑기).cpp">
+      <Filter>소스 파일\2020</Filter>
+    </ClCompile>
+    <ClCompile Include="200422_programmers_kakao(비밀지도).cpp">
+      <Filter>소스 파일\2020</Filter>
+    </ClCompile>
+    <ClCompile Include="200422_programmers_kakao(오픈채팅방).cpp">
+      <Filter>소스 파일\2020</Filter>
+    </ClCompile>
+    <ClCompile Include="200422_programmers_kakao(문자열 압축).cpp">
+      <Filter>소스 파일\2020</Filter>
+    </ClCompile>
+    <ClCompile Include="200423_2589(보물섬).cpp">
+      <Filter>소스 파일\2020</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="200422_programmers_kakao(오픈채팅방).h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
