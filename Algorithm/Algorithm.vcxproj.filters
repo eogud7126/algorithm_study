@@ -303,6 +303,12 @@
     <ClCompile Include="200423_2589(보물섬).cpp">
       <Filter>소스 파일\2020</Filter>
     </ClCompile>
+    <ClCompile Include="200423_2212(센서).cpp">
+      <Filter>소스 파일\2020</Filter>
+    </ClCompile>
+    <ClCompile Include="200423_8980(택배).cpp">
+      <Filter>소스 파일\2020</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="200422_programmers_kakao(오픈채팅방).h">
