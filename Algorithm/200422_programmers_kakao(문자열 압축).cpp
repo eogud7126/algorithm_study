@@ -13,6 +13,7 @@ using namespace std;
 int solution(string s) {
 	int answer = s.size();
 	vector<int> stringlen;
+	if (answer == 1) return 1;
 	//1개 단위부터 n/2까지 탐색
 	for (int i = 1;i <= s.size() / 2;i++) {
 		int count = 1;
@@ -38,6 +39,7 @@ int solution(string s) {
 			if (j + i >= s.size()) {
 				if (count == 1) {
 					tmp_answer.append(s.substr(j));
+					cout << "i : " << i << "j : " << j << endl;
 				}
 				else {
 					tmp_answer.append(to_string(count)).append(tmp);
@@ -45,7 +47,7 @@ int solution(string s) {
 				break;
 			}
 		}
-		stringlen.push_back(strlen(tmp_answer.c_str()));
+		stringlen.push_back(tmp_answer.length());
 		cout << tmp_answer << endl;
 	}
 	answer = *min_element(stringlen.begin(), stringlen.end());
@@ -54,7 +56,7 @@ int solution(string s) {
 
 int main(void) {
 	//변수
-	string s = "ababcdcdababcdcd";
+	string s = "a";
 	cout << solution(s);
 	return 0;
 }
