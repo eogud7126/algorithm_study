@@ -34,13 +34,16 @@
     <Filter Include="소스 파일\2020\programmers\kakao">
       <UniqueIdentifier>{5a62a366-5d73-4bcc-b8e7-f5858b6f6ed6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\2020\jmb">
+      <UniqueIdentifier>{2ee230cb-905c-4906-86b9-e1e621577111}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2020\etc">
+      <UniqueIdentifier>{997ca18b-2c89-4501-9a36-d6d1c1abeae2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="hello.cpp">
       <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="200108_jmb_josephus.cpp">
-      <Filter>소스 파일\2020</Filter>
     </ClCompile>
     <ClCompile Include="190924_1012(유기농배추).cpp">
       <Filter>소스 파일\2019</Filter>
@@ -95,15 +98,6 @@
     </ClCompile>
     <ClCompile Include="191114_1654(랜선 자르기).cpp">
       <Filter>소스 파일\2019</Filter>
-    </ClCompile>
-    <ClCompile Include="200109_jmb_brackets2.cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="practice.cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200329_test1.cpp">
-      <Filter>소스 파일\2020</Filter>
     </ClCompile>
     <ClCompile Include="hyuncard_01.cpp">
       <Filter>소스 파일\2020\hyuncard</Filter>
@@ -347,6 +341,18 @@
     </ClCompile>
     <ClCompile Include="200425_programmers_kakao(실패율).cpp">
       <Filter>소스 파일\2020\programmers\kakao</Filter>
+    </ClCompile>
+    <ClCompile Include="200108_jmb_josephus.cpp">
+      <Filter>소스 파일\2020\jmb</Filter>
+    </ClCompile>
+    <ClCompile Include="200109_jmb_brackets2.cpp">
+      <Filter>소스 파일\2020\jmb</Filter>
+    </ClCompile>
+    <ClCompile Include="200329_test1.cpp">
+      <Filter>소스 파일\2020\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="practice.cpp">
+      <Filter>소스 파일\2020\etc</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
