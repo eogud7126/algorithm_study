@@ -19,6 +19,21 @@
     <Filter Include="소스 파일\2020">
       <UniqueIdentifier>{be352bfe-81af-4f23-bcfa-de7657d7dd14}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\2020\hyuncard">
+      <UniqueIdentifier>{f04c7814-4a75-45e0-9ee8-a14e9dc06409}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2020\baekjoon">
+      <UniqueIdentifier>{a209fcdc-ae7f-41ee-9d3c-a5af8028f17e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2020\baekjoon\samsungsw">
+      <UniqueIdentifier>{45c8b18a-42be-4837-b7e3-ec012c35ea18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2020\programmers">
+      <UniqueIdentifier>{6cda471b-3522-4910-a0eb-b3ec12b964e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2020\programmers\kakao">
+      <UniqueIdentifier>{5a62a366-5d73-4bcc-b8e7-f5858b6f6ed6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="hello.cpp">
@@ -84,238 +99,264 @@
     <ClCompile Include="200109_jmb_brackets2.cpp">
       <Filter>소스 파일\2020</Filter>
     </ClCompile>
-    <ClCompile Include="200111_1316%28그룹단어체커%29.cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200111_2941(크로아티아 알파벳).cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200117_1753(최단경로).cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200211_2606(바이러스_복습).cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200211_6603(로또).cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200217_9372(상근이의 여행).cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200218_2583(영역 구하기).cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200218_14502(연구소).cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200224_mnsoft0222_2.cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200224_mnsoft0222_1.cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200224_mnsoft0222_3.cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200226_mnsoft0222_4.cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200226_programmers(여행경로).cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
     <ClCompile Include="practice.cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200307_10162(전자레인지).cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200307_10163(색종이).cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200307_10164(격자상의 경로).cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200309_10836(여왕벌).cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200310_9019(DSLR).cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200310_2644(촌수계산).cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200312_2667(단지번호붙이기).cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200312_11403(경로찾기).cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200312_2468(안전 영역).cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200312_7562(나이트의 이동).cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200314_10833(사과).cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200314_10834(벨트).cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200316_10026(적록색약).cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200316_3055(탈출).cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200317_1463(1로만들기).cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200317_11726(2xn타일링).cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200317_11727(2xn타일링2).cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200317_9095(1,2,3 더하기).cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200317_11052(카드 구매하기).cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200317_10844(쉬운 계단수).cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200317_11057(오르막수).cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200318_2193(이친수).cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200318_9465(스티커).cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200318_2156(포도주시식).cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200318_11053(가장긴증가하는 부분수열).cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200318_11055(가장 큰 증가부분 수열).cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200318_11722(가장 긴 감소하는 부분수열).cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200318_11054(가장 긴 바이토닉 부분수열).cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200318_1002(터렛).cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200319_1912(연속합).cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200319_2579(계단 오르기).cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200319_1699%28제곱수의합%29.cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200319_2133(타일채우기).cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200319_9461(파도반수열).cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200319_2225(합분해).cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200319_2011(암호코드).cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200319_2293(동전1).cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200320_10814(나이순 정렬).cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200320_10825(국영수).cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200320_11652(카드).cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200320_11004(K번째수).cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200320_3020(개똥벌레).cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200321_4949(균형잡힌 세상).cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200321_1764%28듣보잡%29.cpp">
       <Filter>소스 파일\2020</Filter>
     </ClCompile>
     <ClCompile Include="200329_test1.cpp">
       <Filter>소스 파일\2020</Filter>
     </ClCompile>
-    <ClCompile Include="200330_14490(백대열).cpp">
-      <Filter>소스 파일\2020</Filter>
+    <ClCompile Include="hyuncard_01.cpp">
+      <Filter>소스 파일\2020\hyuncard</Filter>
     </ClCompile>
-    <ClCompile Include="200330_17413(단어 뒤집기2).cpp">
-      <Filter>소스 파일\2020</Filter>
+    <ClCompile Include="200111_1316%28그룹단어체커%29.cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200111_2941(크로아티아 알파벳).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200117_1753(최단경로).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200211_2606(바이러스_복습).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200211_6603(로또).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200217_9372(상근이의 여행).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200218_2583(영역 구하기).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200218_14502(연구소).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200307_10162(전자레인지).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200307_10163(색종이).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200307_10164(격자상의 경로).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200309_10836(여왕벌).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200310_2644(촌수계산).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200310_9019(DSLR).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200312_2468(안전 영역).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200312_2667(단지번호붙이기).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200312_7562(나이트의 이동).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200312_11403(경로찾기).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200314_10833(사과).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200314_10834(벨트).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200316_3055(탈출).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200316_10026(적록색약).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200317_1463(1로만들기).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200317_9095(1,2,3 더하기).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200317_10844(쉬운 계단수).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200317_11052(카드 구매하기).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200317_11057(오르막수).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200317_11726(2xn타일링).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200317_11727(2xn타일링2).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200318_1002(터렛).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200318_2156(포도주시식).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200318_2193(이친수).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200318_9465(스티커).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200318_11053(가장긴증가하는 부분수열).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200318_11054(가장 긴 바이토닉 부분수열).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200318_11055(가장 큰 증가부분 수열).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200318_11722(가장 긴 감소하는 부분수열).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200319_1699%28제곱수의합%29.cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200319_1912(연속합).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200319_2011(암호코드).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200319_2133(타일채우기).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200319_2225(합분해).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200319_2293(동전1).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200319_2579(계단 오르기).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200319_9461(파도반수열).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200320_3020(개똥벌레).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200320_10814(나이순 정렬).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200320_10825(국영수).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200320_11004(K번째수).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200320_11652(카드).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200321_1764%28듣보잡%29.cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200321_4949(균형잡힌 세상).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
     </ClCompile>
     <ClCompile Include="200330_5525(IOIOI).cpp">
-      <Filter>소스 파일\2020</Filter>
+      <Filter>소스 파일\2020\baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="200331_2805(나무자르기).cpp">
-      <Filter>소스 파일\2020</Filter>
+    <ClCompile Include="200330_14490(백대열).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200330_17413(단어 뒤집기2).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
     </ClCompile>
     <ClCompile Include="200331_1620(나는야 포켓몬 마스터 이다솜).cpp">
-      <Filter>소스 파일\2020</Filter>
+      <Filter>소스 파일\2020\baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="200401_programmers_짝지어제거하기.cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200410_9935(문자열 폭발).cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200413_programmers_배포.cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200413_programmers_연속합.cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200422_programmers_kakao(크레인인형뽑기).cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200422_programmers_kakao(비밀지도).cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200422_programmers_kakao(오픈채팅방).cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200422_programmers_kakao(문자열 압축).cpp">
-      <Filter>소스 파일\2020</Filter>
-    </ClCompile>
-    <ClCompile Include="200423_2589(보물섬).cpp">
-      <Filter>소스 파일\2020</Filter>
+    <ClCompile Include="200331_2805(나무자르기).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
     </ClCompile>
     <ClCompile Include="200423_2212(센서).cpp">
-      <Filter>소스 파일\2020</Filter>
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200423_2589(보물섬).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
     </ClCompile>
     <ClCompile Include="200423_8980(택배).cpp">
-      <Filter>소스 파일\2020</Filter>
+      <Filter>소스 파일\2020\baekjoon</Filter>
     </ClCompile>
     <ClCompile Include="200423_17825(주사위 윷놀이).cpp">
-      <Filter>소스 파일\2020</Filter>
+      <Filter>소스 파일\2020\baekjoon\samsungsw</Filter>
+    </ClCompile>
+    <ClCompile Include="200422_programmers_kakao(크레인인형뽑기).cpp">
+      <Filter>소스 파일\2020\programmers\kakao</Filter>
+    </ClCompile>
+    <ClCompile Include="200422_programmers_kakao(문자열 압축).cpp">
+      <Filter>소스 파일\2020\programmers\kakao</Filter>
+    </ClCompile>
+    <ClCompile Include="200422_programmers_kakao(비밀지도).cpp">
+      <Filter>소스 파일\2020\programmers\kakao</Filter>
+    </ClCompile>
+    <ClCompile Include="200422_programmers_kakao(오픈채팅방).cpp">
+      <Filter>소스 파일\2020\programmers\kakao</Filter>
+    </ClCompile>
+    <ClCompile Include="200410_9935(문자열 폭발).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200224_mnsoft0222_1.cpp">
+      <Filter>소스 파일\2020\programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="200224_mnsoft0222_2.cpp">
+      <Filter>소스 파일\2020\programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="200224_mnsoft0222_3.cpp">
+      <Filter>소스 파일\2020\programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="200226_mnsoft0222_4.cpp">
+      <Filter>소스 파일\2020\programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="200226_programmers(여행경로).cpp">
+      <Filter>소스 파일\2020\programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="200401_programmers_짝지어제거하기.cpp">
+      <Filter>소스 파일\2020\programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="200413_programmers_배포.cpp">
+      <Filter>소스 파일\2020\programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="200413_programmers_연속합.cpp">
+      <Filter>소스 파일\2020\programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="hyuncard_02.cpp">
+      <Filter>소스 파일\2020\hyuncard</Filter>
+    </ClCompile>
+    <ClCompile Include="hyuncard_03.cpp">
+      <Filter>소스 파일\2020\hyuncard</Filter>
+    </ClCompile>
+    <ClCompile Include="hyuncard_04.cpp">
+      <Filter>소스 파일\2020\hyuncard</Filter>
+    </ClCompile>
+    <ClCompile Include="200425_programmers_kakao(튜플).cpp">
+      <Filter>소스 파일\2020\programmers\kakao</Filter>
+    </ClCompile>
+    <ClCompile Include="200425_programmers_kakao%28다트게임%29.cpp">
+      <Filter>소스 파일\2020\programmers\kakao</Filter>
+    </ClCompile>
+    <ClCompile Include="200425_programmers_kakao(실패율).cpp">
+      <Filter>소스 파일\2020\programmers\kakao</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="200422_programmers_kakao(오픈채팅방).h">
+    <ClInclude Include="resource.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Algorithm.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>
