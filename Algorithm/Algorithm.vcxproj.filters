@@ -357,6 +357,21 @@
     <ClCompile Include="200427_programmers_kakao(괄호변환).cpp">
       <Filter>소스 파일\2020\programmers\kakao</Filter>
     </ClCompile>
+    <ClCompile Include="200427_11559(Puyo Puyo).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200427_17472(다리만들기2).cpp">
+      <Filter>소스 파일\2020\baekjoon\samsungsw</Filter>
+    </ClCompile>
+    <ClCompile Include="200430_programmers_kakao(불량사용자).cpp">
+      <Filter>소스 파일\2020\programmers\kakao</Filter>
+    </ClCompile>
+    <ClCompile Include="200501_programmers_kakao(방금그곡).cpp">
+      <Filter>소스 파일\2020\programmers\kakao</Filter>
+    </ClCompile>
+    <ClCompile Include="200501_programmers_kakao(자물쇠와 열쇠).cpp">
+      <Filter>소스 파일\2020\programmers\kakao</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
