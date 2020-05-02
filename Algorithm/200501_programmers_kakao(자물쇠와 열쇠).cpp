@@ -29,7 +29,7 @@ bool checkIsunlock(vector<vector<int>> lock, int N, int M) {
 				return false;
 		}
 	}
-	//cout << "�ڡڡڡڡڡڡڡڡڡڡ�Ǯ�ȴ�ڡڡڡڡڡڡڡڡڡڡڡ�" << endl;
+	cout << "�ڡڡڡڡڡڡڡڡڡڡ�Ǯ�ȴ�ڡڡڡڡڡڡڡڡڡڡڡ�" << endl;
 	return true;
 }
 
@@ -82,7 +82,7 @@ bool solution(vector<vector<int>> key, vector<vector<int>> lock) {
 		}
 		if (answer) break;
 		key = rotateKey(key);
-		//cout << "================ȸ��===============" << endl;
+		cout << "================ȸ��===============" << endl;
 	}
 
 

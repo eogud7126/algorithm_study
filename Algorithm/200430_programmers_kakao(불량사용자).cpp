@@ -21,6 +21,7 @@ void DFS(int idx, set<string> s) {
 	for (int i = 0;i < island[idx].size();i++) {
 		set<string> tmp = s;
 		tmp.insert(island[idx][i]);
+		//중복시 tmp사이즈 그대로
 		if (tmp.size() == idx) continue;
 		if (tmp.size() == banned_id.size()) {
 			setAnswer.insert(tmp);

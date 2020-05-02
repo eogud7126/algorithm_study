@@ -445,7 +445,10 @@
     <ClCompile Include="200501_programmers_kakao(방금그곡).cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="200501_programmers_kakao(자물쇠와 열쇠).cpp" />
+    <ClCompile Include="200501_programmers_kakao(자물쇠와 열쇠).cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="200502_16234(인구이동).cpp" />
     <ClCompile Include="hello.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
