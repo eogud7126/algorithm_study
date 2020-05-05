@@ -375,6 +375,12 @@
     <ClCompile Include="200502_16234(인구이동).cpp">
       <Filter>소스 파일\2020\baekjoon</Filter>
     </ClCompile>
+    <ClCompile Include="200505_programmers_kakao(호텔 방 배정).cpp">
+      <Filter>소스 파일\2020\programmers\kakao</Filter>
+    </ClCompile>
+    <ClCompile Include="200505_programmers_kakao(징검다리건너기).cpp">
+      <Filter>소스 파일\2020\programmers\kakao</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
