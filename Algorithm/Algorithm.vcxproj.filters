@@ -393,6 +393,36 @@
     <ClCompile Include="200507_sw_요리사.cpp">
       <Filter>소스 파일\2020</Filter>
     </ClCompile>
+    <ClCompile Include="200509_programmers_kakaoTest01.cpp">
+      <Filter>소스 파일\2020\programmers\kakao</Filter>
+    </ClCompile>
+    <ClCompile Include="200509_programmers_kakaoTest02.cpp">
+      <Filter>소스 파일\2020\programmers\kakao</Filter>
+    </ClCompile>
+    <ClCompile Include="200509_programmers_kakaoTest03.cpp">
+      <Filter>소스 파일\2020\programmers\kakao</Filter>
+    </ClCompile>
+    <ClCompile Include="200509_programmers_kakaoTest04.cpp">
+      <Filter>소스 파일\2020\programmers\kakao</Filter>
+    </ClCompile>
+    <ClCompile Include="200509_programmers_kakaoTest05.cpp">
+      <Filter>소스 파일\2020\programmers\kakao</Filter>
+    </ClCompile>
+    <ClCompile Include="200510_1075(나누기).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200511_2234(성곽).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200511_5427(불).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200511_programmers_kakaoTestPractice02.cpp">
+      <Filter>소스 파일\2020\programmers\kakao</Filter>
+    </ClCompile>
+    <ClCompile Include="200511_programmers_kakaoTestPractice04.cpp">
+      <Filter>소스 파일\2020\programmers\kakao</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
