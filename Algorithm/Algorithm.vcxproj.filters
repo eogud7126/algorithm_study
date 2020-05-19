@@ -429,6 +429,9 @@
     <ClCompile Include="200516_programmers_kakao(셔틀버스).cpp">
       <Filter>소스 파일\2020\programmers\kakao</Filter>
     </ClCompile>
+    <ClCompile Include="200518_programmers_kakao(길찾기게임).cpp">
+      <Filter>소스 파일\2020\programmers\kakao</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">

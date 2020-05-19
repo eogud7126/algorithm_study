@@ -49,7 +49,7 @@ int solution(vector<string> lines) {
 		int cnt1 = 0;
 		int cnt2 = 0;
 		for (int j = 0;j < times.size();j++) {
-			//범위 밖에 있는것 빼기 위한 cnt1,2
+			//범위 안에 있는것 포함하기 위한 cnt1,2
 			if (!(times[i].start + 999 <times[j].start || times[i].start>times[j].end)) {
 				cnt1++;
 			}
