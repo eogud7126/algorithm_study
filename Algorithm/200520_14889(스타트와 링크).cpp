@@ -11,51 +11,6 @@ using namespace std;
 int N;
 int S[21][21];
 
-//int main() {
-//	int n;
-//	cin >> n;
-//	vector<vector<int>> a(n, vector<int>(n));
-//	for (int i = 0; i < n; i++) {
-//		for (int j = 0; j < n; j++) {
-//			cin >> a[i][j];
-//		}
-//	}
-//	vector<int> b(n);
-//	for (int i = 0; i < n / 2; i++) {
-//		b[i] = 1;
-//	}
-//	sort(b.begin(), b.end());
-//	int ans = 2147483647;
-//	do {
-//		vector<int> first, second;
-//		for (int i = 0; i < n; i++) {
-//			if (b[i] == 0) {
-//				first.push_back(i);
-//			}
-//			else {
-//				second.push_back(i);
-//			}
-//		}
-//		for (int i = 0;i < b.size() / 2;i++) {
-//			cout << first[i] << " " << second[i] << endl;
-//		}
-//		cout << endl;
-//		int one = 0;
-//		int two = 0;
-//		for (int i = 0; i < n / 2; i++) {
-//			for (int j = 0; j < n / 2; j++) {
-//				if (i == j) continue;
-//				one += a[first[i]][first[j]];
-//				two += a[second[i]][second[j]];
-//			}
-//		}
-//		int diff = one - two;
-//		if (diff < 0) diff = -diff;
-//		if (ans > diff) ans = diff;
-//	} while (next_permutation(b.begin(), b.end()));
-//	cout << ans << '\n';
-//	return 0;
-//}
 int main(void) {
 	ios::sync_with_stdio(0);
 	cin.tie(NULL);
@@ -66,23 +21,33 @@ int main(void) {
 			cin >> S[i][j];
 		}
 	}
-	vector<int> k(N);
-	for (int i = 0;i < N / 2;i++) {
-		k[i] = 1;
+	vector<int> nums(N);
+	for (int i = 0;i < N/2;i++) {
+		nums[i] = 1;
 	}
-	sort(k.begin(), k.end());
+	sort(nums.begin(), nums.end());
+	int answerMin = 98765432;
 	do {
 		vector<int> first, second;
-		for (int i = 0;i < k.size();i++) {
-			if (k[i] == 0)
+		int firstSum = 0, secondSum = 0;
+		for (int i = 0;i < N;i++) {
+			if (nums[i] == 1)
 				first.push_back(i);
 			else
 				second.push_back(i);
 		}
-		for (int i = 0;i < k.size()/2;i++) {
-			cout << first[i]<<" "<<second[i]<<endl;
+		for (int i = 0;i < N / 2;i++) {
+			for (int j = i + 1;j < N / 2;j++) {
+				firstSum += (S[first[i]][first[j]] + S[first[j]][first[i]]);
+				secondSum += (S[second[i]][second[j]] + S[second[j]][second[i]]);
+			}
 		}
-		cout << endl;
-	} while (next_permutation(k.begin(), k.end()));
+		
+		int tmp = abs(firstSum - secondSum);
+		if (answerMin > tmp) {
+			answerMin = tmp;
+		}
+	} while (next_permutation(nums.begin(), nums.end()));
+	cout << answerMin << "\n";
 	return 0;
 }

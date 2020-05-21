@@ -444,6 +444,21 @@
     <ClCompile Include="200520_14889(스타트와 링크).cpp">
       <Filter>소스 파일\2020\baekjoon</Filter>
     </ClCompile>
+    <ClCompile Include="200521_6603(로또).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200521_1182(부분수열의합).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200521_14225(부분수열합).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200521_14500(테트로미노).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200521_16197(두 동전).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
