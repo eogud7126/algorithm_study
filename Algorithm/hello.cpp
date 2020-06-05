@@ -102,40 +102,25 @@
 #include<queue>
 #include<map>
 #include<functional>
+#include<string>
+#include<algorithm>
 using namespace std;
 
-vector<int> a[1001];
-bool check[1001];
-int counts = 0;
-
-void dfs(int node) {
-	check[node] = true;
-	for (int i = 0; i < a[node].size(); i++) {
-		int next = a[node][i];
-		if (check[next] == false) {
-			counts++;
-			dfs(next);
-		}
-	}
-}
+vector<int> a = { 9,4,1,23,5,2,2,34,2,1,2,3,1,5,45,6,457,5,8,6,96,6,3 };
 
 int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(0);
 	cout.tie(0);
-	int computer, couple, u, v;
-	cin >> computer >> couple;
-
-	for (int i = 0; i < couple; i++) {
-		cin >> u >> v;
-		a[u].push_back(v);
-		a[v].push_back(u);
-
-		for (int i = 0; i <= computer; i++) {
-			sort(a[i].begin(), a[i].end());
-		}
-	}
-	dfs(1);
-	cout << counts << "\n";
-
+	sort(a.begin(), a.end());
+	for (int i = 0;i < a.size();i++)
+		cout<< a[i] << " ";
+	unique(a.begin(), a.end()-2);
+	//a.erase(a.begin()+4,a.end());
+	cout << endl;
+	for (int i = 0;i < a.size();i++)
+		cout << a[i] << " ";
+	cout << endl;
+	bool n = binary_search(a.begin(), a.end(), 4);
+	cout << n << endl;
 }

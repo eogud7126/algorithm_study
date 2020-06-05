@@ -459,6 +459,21 @@
     <ClCompile Include="200521_16197(두 동전).cpp">
       <Filter>소스 파일\2020\baekjoon</Filter>
     </ClCompile>
+    <ClCompile Include="200522_programmers_test.cpp">
+      <Filter>소스 파일\2020\programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="200522_7576(토마토).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200522_2206(벽부수고이동하기).cpp">
+      <Filter>소스 파일\2020\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="200605_programmers(멀쩡한 사각형).cpp">
+      <Filter>소스 파일\2020\programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="200605_programmers(다리를 지나는 트럭).cpp">
+      <Filter>소스 파일\2020\programmers</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
