@@ -40,6 +40,12 @@
     <Filter Include="소스 파일\2020\etc">
       <UniqueIdentifier>{997ca18b-2c89-4501-9a36-d6d1c1abeae2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\2020\leetcode">
+      <UniqueIdentifier>{6cbbc955-d161-493e-94e8-6aa7a73f9399}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2020-2">
+      <UniqueIdentifier>{c9189608-d41d-4625-9ab2-58f8c2e2d997}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="hello.cpp">
@@ -473,6 +479,18 @@
     </ClCompile>
     <ClCompile Include="200605_programmers(다리를 지나는 트럭).cpp">
       <Filter>소스 파일\2020\programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="Two Sum.cpp">
+      <Filter>소스 파일\2020\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="200902_Logest Substring Without Repeating Characters.cpp">
+      <Filter>소스 파일\2020\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="20200907_2529(부등호).cpp">
+      <Filter>소스 파일\2020-2</Filter>
+    </ClCompile>
+    <ClCompile Include="20200907_1339(단어수학).cpp">
+      <Filter>소스 파일\2020-2</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
